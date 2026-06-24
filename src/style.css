@@ -43,6 +43,7 @@ body {
 .nav__item:first-child {
   margin-left: 0;
 }
+
 .nav__link {
   position: relative;
 
