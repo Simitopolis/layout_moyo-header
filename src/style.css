@@ -20,7 +20,26 @@ body {
 .nav__list,
 .nav__item,
 .nav__link {
-  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  background-color: #fff;
+}
+
+.logo {
+  display: flex;
+  margin-left: 50px;
+}
+
+.logo__image {
+  width: 40px;
+  height: 40px;
 }
 
 .nav {
