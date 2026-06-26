@@ -88,7 +88,7 @@ body {
 }
 
 .nav__link.is-active::after {
-  content: "";
+  content: '';
 
   position: absolute;
   left: 0;
